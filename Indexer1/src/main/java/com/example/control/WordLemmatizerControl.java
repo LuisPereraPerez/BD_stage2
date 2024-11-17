@@ -10,7 +10,7 @@ import java.util.Properties;
 
 public class WordLemmatizerControl implements WordLemmatizer {
 
-    private StanfordCoreNLP pipeline;
+    private final StanfordCoreNLP pipeline;
 
     public WordLemmatizerControl() {
         Properties props = new Properties();
